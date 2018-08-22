@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-buble": "^0.19.2"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "rollup": "rollup -c"
+  }
+}

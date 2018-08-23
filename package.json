@@ -2,11 +2,14 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "buble-loader": "^0.5.1",
     "rollup": "^0.64.1",
-    "rollup-plugin-buble": "^0.19.2"
+    "rollup-plugin-buble": "^0.19.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
   },
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "webpack",
     "rollup": "rollup -c"
   }
 }

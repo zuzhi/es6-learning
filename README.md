@@ -5,7 +5,7 @@
 
 ## ES2015 Crash Course
 
-1. Babel Setup
+- Babel Setup
 - ES6 Compilation With Laravel Elixir
 - To Var, Let, or Const
 - Arrows
@@ -25,7 +25,7 @@
 
 ## Learn ES2015
 
-1. Arrows and Lexical This
+- Arrows and Lexical This
 - Classes
 - Enhanced Object Literals
 - Template Strings
